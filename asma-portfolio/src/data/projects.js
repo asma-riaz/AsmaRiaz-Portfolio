@@ -90,6 +90,6 @@ export const projects = [
       'Achieved clamp()-based responsive scaling without media query breakpoints',
     ],
     github: 'https://github.com/asma-riaz/Tic-Tac-Toe-game',
-    live: '',
+    live: 'https://tic-tac-toe-game-by-asma.netlify.app/',
   },
 ]

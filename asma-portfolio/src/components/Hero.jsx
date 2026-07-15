@@ -98,42 +98,39 @@ export default function Hero() {
         </motion.div>
 
         <motion.div
-          initial={{ opacity: 0, y: 30, scale: 0.97 }}
-          animate={{ opacity: 1, y: 0, scale: 1 }}
-          transition={{ duration: 0.8, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
-          className="relative mx-auto w-full max-w-md"
-        >
-          <motion.div
-            animate={{ y: [0, -10, 0] }}
-            transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
-            className="glass-strong overflow-hidden rounded-2xl shadow-2xl shadow-black/40"
-          >
-            <div className="relative aspect-[4/5] w-full overflow-hidden">
-              {showImage ? (
-                <img
-                  src={site.heroImage}
-                  alt={`Portrait of ${site.name}`}
-                  className="h-full w-full object-cover"
-                  onError={() => setImageFailed(true)}
-                />
-              ) : (
-                <div className="flex h-full flex-col items-center justify-center gap-4 bg-gradient-to-br from-accent/20 via-transparent to-surface/60 px-6 text-center">
-                  <span className="flex h-16 w-16 items-center justify-center rounded-2xl border border-border bg-white/[0.03] text-mist-dim">
-                    <HiPhoto className="h-8 w-8" />
-                  </span>
-                  <span className="font-mono text-[11px] tracking-widest text-mist-dim">
-                    ADD YOUR PHOTO IN /public/hero
-                  </span>
-                </div>
-              )}
-            </div>
-          </motion.div>
+  initial={{ opacity: 0, y: 30, scale: 0.97 }}
+  animate={{ opacity: 1, y: 0, scale: 1 }}
+  transition={{ duration: 0.8, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
+  className="relative mx-auto w-full max-w-sm"
+>
+  <motion.div
+    animate={{ y: [0, -10, 0] }}
+    transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
+    className="glass-strong rounded-2xl shadow-2xl shadow-black/40"
+  >
+    <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl">
+      {showImage ? (
+        <img
+          src={site.heroImage}
+          alt={`Portrait of ${site.name}`}
+          className="h-full w-full object-cover"
+          onError={() => setImageFailed(true)}
+        />
+      ) : (
+        <img
+          src="/hero/asma-riaz.png"
+          alt="Portfolio Profile"
+          className="h-full w-full object-cover"
+        />
+      )}
+    </div>
+  </motion.div>
 
-          <div className="glass absolute -bottom-6 -left-6 hidden rounded-xl px-4 py-3 sm:block">
-            <p className="font-mono text-[11px] text-mist-dim">uptime</p>
-            <p className="font-mono text-sm text-accent">building since 2025</p>
-          </div>
-        </motion.div>
+  <div className="glass absolute -bottom-6 -left-6 hidden rounded-xl px-4 py-3 sm:block">
+    <p className="font-mono text-[11px] text-mist-dim">uptime</p>
+    <p className="font-mono text-sm text-accent">building since 2025</p>
+  </div>
+</motion.div>
       </div>
 
       <motion.button
