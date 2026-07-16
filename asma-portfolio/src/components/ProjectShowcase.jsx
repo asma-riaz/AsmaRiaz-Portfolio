@@ -1,11 +1,7 @@
-import { useState } from 'react'
 import { HiArrowTopRightOnSquare, HiCheckCircle } from 'react-icons/hi2'
 import { FaGithub } from 'react-icons/fa'
 
 function ProjectPreview({ project }) {
-  const [videoFailed, setVideoFailed] = useState(false)
-  const showVideo = Boolean(project.video) && !videoFailed
-
   return (
     <div className="glass-strong card-lift group overflow-hidden rounded-2xl">
       <div className="flex items-center gap-1.5 border-b border-border bg-white/[0.02] px-4 py-3">
@@ -15,39 +11,36 @@ function ProjectPreview({ project }) {
         <span className="ml-3 truncate font-mono text-xs text-mist-dim">{project.fileName}</span>
       </div>
 
-      <div className="relative aspect-[16/10] overflow-hidden bg-gradient-to-br from-accent/25 via-transparent to-surface/60">
-        {showVideo ? (
-          <video
-            className="h-full w-full object-fit"
-            controls
-            muted
-            loop
-            playsInline
-            preload="metadata"
-            onError={() => setVideoFailed(true)}
-          >
-            <source src={project.video} type="video/mp4" onError={() => setVideoFailed(true)} />
-          </video>
+      <div className="relative aspect-[16/10] overflow-hidden rounded-b-2xl bg-black">
+      {project.video ? (
+
+        <video
+          src={project.video}
+          autoPlay
+          muted
+          loop
+          playsInline
+          controls={false}
+          className="h-full w-full object-fit"
+        />
+        ) : project.image ? (          
+        <img        
+          src={project.image}
+          alt={project.title}
+          className="h-full w-full object-cover"
+        />
         ) : (
-          <>
-            <div className="absolute inset-0 bg-ink-elevated/40" />
-            <div className="relative flex h-full flex-col items-center justify-center gap-4 px-6 text-center transition-transform duration-500 ease-out group-hover:scale-105">
-              <span className="font-display text-2xl font-semibold text-mist sm:text-3xl">
-                {project.title}
-              </span>
-              <div className="flex w-full max-w-xs flex-col gap-2">
-                <span className="h-2 w-3/4 self-center rounded-full bg-white/10" />
-                <span className="h-2 w-full rounded-full bg-white/[0.06]" />
-                <span className="h-2 w-5/6 self-center rounded-full bg-white/[0.06]" />
-              </div>
-              <span className="font-mono text-[11px] tracking-widest text-mist-dim">
-                PREVIEW · ADD SCREENSHOT OR DEMO VIDEO IN /public/projects
-              </span>
-            </div>
-          </>
-        )}
+
+      <div className="flex h-full items-center justify-center bg-gradient-to-br from-accent/25 via-transparent to-surface/60">
+
+      <span className="font-display text-3xl font-semibold text-mist">
+        {project.title}
+      </span>
       </div>
-    </div>
+    )}
+
+      </div>
+   </div>
   )
 }
 
