@@ -7,9 +7,9 @@ export default function Education() {
     <section id="education" className="section-px py-24 sm:py-28">
       <div className="mx-auto max-w-6xl">
         <SectionReveal>
-          <p className="eyebrow">EDUCATION</p>
+          <p className="eyebrow">EDUCATION & CERTIFICATIONS</p>
           <h2 className="mt-4 text-3xl font-semibold text-mist sm:text-4xl">
-            Learning, <span className="text-accent">formally and otherwise</span>
+            Building Through  <span className="text-accent">Learning</span>
           </h2>
         </SectionReveal>
 

@@ -7,10 +7,10 @@ export const site = {
   resumeUrl: '/resume/Asma-Riaz-Resume.pdf',
   heroImage: '/hero/asma-riaz.jpg',
   intro:
-    "I build fast, accessible web applications end to end, from React interfaces to PHP and MySQL backends, focused on solving real problems rather than shipping demos.",
+    "I build fast, responsive full-stack web applications, from React frontends to PHP and MySQL backends, focused on solving real-world problems.",
   aboutParagraphs: [
-    "I'm a full stack web developer with a steady focus on React JS, PHP, and MySQL, and a habit of shipping complete, working products instead of isolated exercises. Every project I build goes through the same discipline: a real data model, protected routes, and a deploy pipeline that actually runs in production.",
-    "I'm currently completing my BS in Computer Science at Lahore College for Women University, and I spend the time outside class building things that solve real problems, e-commerce platforms, restaurant management systems, student portals, and interactive tools, each one deployed and pushed to GitHub, not left half finished.",
-    "What keeps me here is the pace of the web. There is always a cleaner pattern, a faster query, a more accessible component, and I would rather spend my time learning that than standing still.",
+    "I'm a Full-Stack Web Developer who enjoys turning ideas into practical web applications. My primary stack includes React, JavaScript, PHP, MySQL, and Tailwind CSS, allowing me to build complete solutions from responsive user interfaces to secure backend functionality.",
+    "Currently pursuing a BS in Computer Science at Lahore College for Women University, I spend much of my time building projects that simulate real-world business needs—from e-commerce platforms and student management systems to portfolio websites and interactive applications. Through these projects, I've gained hands-on experience with authentication, REST APIs, CRUD operations, database design, responsive UI development, and deployment.",
+    "I'm constantly improving my skills, learning modern development practices, and looking for opportunities to contribute to products where I can continue growing as a developer.",
   ],
 }

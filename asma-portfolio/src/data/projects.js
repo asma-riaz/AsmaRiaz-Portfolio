@@ -21,7 +21,6 @@ export const projects = [
       'Implemented real-time client-side validation across a multi-step checkout',
     ],
     github: 'https://github.com/asma-riaz/EliteVerse-ecommerce',
-    // TODO: replace with your live Vercel URL once the backend host is finalized
     live: '',
   },
   {

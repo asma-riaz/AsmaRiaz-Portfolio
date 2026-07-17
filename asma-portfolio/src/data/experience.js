@@ -19,8 +19,8 @@ export const experience = [
     location: 'Lahore, Pakistan',
     period: 'Jun 2025 — Aug 2025',
     points: [
-      'Managed company social media presence and ran paid ad campaigns on Google, Facebook, and Instagram.',
-      'Monitored analytics to track and improve campaign ROI.',
+      'Managed social media accounts and executed paid advertising campaigns across Facebook, Instagram, and Google Ads.',
+      'Monitored campaign performance, analyzed key metrics, and optimized strategies to improve engagement and ROI.',
     ],
   },
 ]

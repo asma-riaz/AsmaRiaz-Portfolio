@@ -8,7 +8,7 @@ export default function Experience() {
         <SectionReveal>
           <p className="eyebrow">EXPERIENCE</p>
           <h2 className="mt-4 text-3xl font-semibold text-mist sm:text-4xl">
-            Where I&apos;ve <span className="text-accent">put in the work</span>
+            Places I&apos;ve <span className="text-accent">Contributed</span>
           </h2>
         </SectionReveal>
 

@@ -26,7 +26,7 @@ export default function Contact() {
     try {
       const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json'  },
         body: JSON.stringify({
           access_key: WEB3FORMS_KEY,
           subject: `Portfolio message from ${values.name}`,
@@ -56,11 +56,10 @@ export default function Contact() {
         <SectionReveal>
           <p className="eyebrow">CONTACT</p>
           <h2 className="mt-4 text-3xl font-semibold text-mist sm:text-4xl">
-            Let&apos;s <span className="text-accent">build something</span>
+            Let&apos;s <span className="text-accent">Connect</span>
           </h2>
           <p className="mt-4 max-w-xl text-[15px] leading-relaxed text-mist-muted sm:text-base">
-            Have a role, project, or just a question? Send a message below, or reach out
-            directly, whichever is easier for you.
+            Have a project, internship opportunity, or question? Send a message below or reach out directly. I'd love to hear from you.
           </p>
         </SectionReveal>
 

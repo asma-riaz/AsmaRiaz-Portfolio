@@ -40,7 +40,7 @@ export default function Skills() {
         <SectionReveal>
           <p className="eyebrow">SKILLS</p>
           <h2 className="mt-4 text-3xl font-semibold text-mist sm:text-4xl">
-            Tools I reach for <span className="text-accent">every day</span>
+            My <span className="text-accent"> Tech Stack</span>
           </h2>
         </SectionReveal>
 

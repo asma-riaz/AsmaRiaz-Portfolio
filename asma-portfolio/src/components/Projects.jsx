@@ -27,8 +27,6 @@ export default function Projects() {
     setIndex(([current]) => [target, target > current ? 1 : -1])
   }
 
-  // Keyboard navigation: left / right arrows move the carousel whenever
-  // focus isn't inside a text field elsewhere on the page.
   useEffect(() => {
     const onKeyDown = (e) => {
       const tag = document.activeElement?.tagName
@@ -50,7 +48,7 @@ export default function Projects() {
             <div>
               <p className="eyebrow">PROJECTS</p>
               <h2 className="mt-4 text-3xl font-semibold text-mist sm:text-4xl">
-                Things I&apos;ve <span className="text-accent">shipped</span>
+                What I&apos;ve <span className="text-accent">Build</span>
               </h2>
             </div>
             <p className="font-mono text-sm text-mist-dim">

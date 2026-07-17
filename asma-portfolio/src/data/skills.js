@@ -5,6 +5,7 @@ import {
   SiPhp,
   SiJsonwebtokens,
   SiMysql,
+  SiMongodb,
   SiJavascript,
   SiHtml5,
   SiCss,
@@ -35,7 +36,7 @@ export const skillGroups = [
     label: 'Backend',
     skills: [
       { name: 'PHP', icon: SiPhp, level: 85 },
-      { name: 'REST APIs', icon: TbApi, level: 82 },
+      { name: 'REST APIs', icon: TbApi, level: 80 },
       { name: 'JWT Authentication', icon: SiJsonwebtokens, level: 78 },
     ],
   },
@@ -45,6 +46,7 @@ export const skillGroups = [
     skills: [
       { name: 'MySQL', icon: SiMysql, level: 85 },
       { name: 'phpMyAdmin', icon: SiPhpmyadmin, level: 88 },
+      { name: 'MongoDB' , icon: SiMongodb, level: 60}
     ],
   },
   {
@@ -52,7 +54,7 @@ export const skillGroups = [
     label: 'Languages',
     skills: [
       { name: 'JavaScript', icon: SiJavascript, level: 88 },
-      { name: 'HTML5', icon: SiHtml5, level: 95 },
+      { name: 'HTML5', icon: SiHtml5, level: 98 },
       { name: 'CSS3', icon: SiCss, level: 92 },
     ],
   },
@@ -61,7 +63,7 @@ export const skillGroups = [
     label: 'Tools',
     skills: [
       { name: 'VS Code', icon: VscVscode, level: 92 },
-      { name: 'XAMPP', icon: SiXampp, level: 85 },
+      { name: 'XAMPP', icon: SiXampp, level: 90 },
       { name: 'Laragon', icon: SiLaragon, level: 82 },
     ],
   },

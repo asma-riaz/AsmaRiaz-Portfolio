@@ -9,11 +9,10 @@ export default function Services() {
         <SectionReveal>
           <p className="eyebrow">SERVICES</p>
           <h2 className="mt-4 text-3xl font-semibold text-mist sm:text-4xl">
-            What I can build <span className="text-accent">for you</span>
+            What I can <span className="text-accent">Build</span>
           </h2>
           <p className="mt-4 max-w-xl text-[15px] leading-relaxed text-mist-muted sm:text-base">
-            The pieces I put together most often when a project comes in, end
-            to end rather than one layer at a time.
+            From responsive frontends to reliable backends, I build complete web applications that are fast, functional, and built for real users.
           </p>
         </SectionReveal>
 
