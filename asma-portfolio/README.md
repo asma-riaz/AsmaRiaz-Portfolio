@@ -1,124 +1,316 @@
-# Asma Riaz — Developer Portfolio
+# Asma Riaz | Developer Portfolio
 
-A production ready, fully responsive developer portfolio built with React, Vite, Tailwind CSS and Framer Motion.
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4-06B6D4?logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer%20Motion-Animations-0055FF?logo=framer&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-This version carries a warm, premium redesign: a charcoal and burnt orange palette (`#252422` / `#EB5E28`), a Fraunces and Inter type pairing, a new Services section, animated skill proficiency bars, a timeline layout for Experience and Education, and keyboard and swipe navigation on the Projects carousel.
+A modern, fully responsive developer portfolio built with **React**, **Vite**, **Tailwind CSS**, and **Framer Motion**. The site is designed with performance, accessibility, and a smooth user experience in mind, and showcases projects, technical skills, services, education, and professional experience through a clean interface and subtle motion design.
 
-## Tech stack
+---
 
-- React 19 + Vite 8
-- Tailwind CSS 4 (CSS first config, no tailwind.config.js needed)
-- Framer Motion for animation
-- React Icons for iconography
+## Table of Contents
 
-## Getting started
+* [About](#about)
+* [Live Demo](#live-demo)
+* [Preview](#preview)
+* [Features](#features)
+* [Tech Stack](#tech-stack)
+* [Getting Started](#getting-started)
+* [Configuration](#configuration)
+* [Project Structure](#project-structure)
+* [Resume](#resume)
+* [Deployment](#deployment)
+* [Accessibility](#accessibility)
+* [Performance](#performance)
+* [Roadmap](#roadmap)
+* [Author](#author)
+* [Acknowledgments](#acknowments)
+* [License](#license)
+
+---
+
+## About
+
+This is the personal developer portfolio of **Asma Riaz**, a full stack web developer and BS Computer Science student at Lahore College for Women University, Lahore. The site pulls together her project work in React, PHP, and MySQL into a single, polished space for recruiters and collaborators to explore, complete with live demos, source links, and a downloadable resume.
+
+---
+
+## Live Demo
+
+**Website:** https://your-portfolio.vercel.app
+
+> Replace the URL above with your deployed Vercel link once the site is live.
+
+---
+
+## Preview
+
+> Add a screenshot or short GIF of the hero section here once the portfolio is deployed, for example:
+>
+> `![Portfolio preview](public/preview.png)`
+
+---
+
+## Features
+
+**Design**
+* Premium charcoal and burnt orange color palette
+* Modern, fully responsive layout across all screen sizes
+
+**Interaction**
+* Interactive project showcase with keyboard and swipe navigation
+* Animated skill proficiency bars
+* Timeline layout for Experience and Education
+* Smooth page transitions using Framer Motion
+* Custom cursor, disabled on touch devices
+
+**Utility**
+* Contact form powered by Web3Forms, no backend required
+* Downloadable resume
+
+**Quality**
+* Accessible and keyboard friendly interface
+* Optimized for performance and SEO
+
+---
+
+## Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| Frontend | React 19, Vite 8 |
+| Styling | Tailwind CSS 4 |
+| Animation | Framer Motion |
+| Icons | React Icons |
+| Contact Form | Web3Forms |
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+* Node.js 18 or higher
+* npm (or yarn)
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/asma-riaz/developer-portfolio.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd developer-portfolio
+```
+
+Install dependencies:
 
 ```bash
 npm install
+```
+
+Start the development server:
+
+```bash
 npm run dev
 ```
 
-The dev server opens at `http://localhost:5173`.
+Open:
 
-```bash
-npm run build     # production build into dist/
-npm run preview   # preview the production build locally
+```
+http://localhost:5173
 ```
 
-## Before you deploy, three things to fill in
+### Available Scripts
 
-### 1. Contact form key (required for the form to actually send email)
+| Command | Description |
+|---------|--------------|
+| `npm run dev` | Starts the local development server |
+| `npm run build` | Builds the app for production |
+| `npm run preview` | Serves the production build locally |
 
-The contact form uses Web3Forms, a free service that emails form submissions straight to your inbox with no backend to host.
+---
 
-1. Go to `https://web3forms.com` and sign up with `asmariaz2903l@gmail.com`.
-2. Copy your Access Key.
-3. Create a file named `.env` in the project root (copy `.env.example`) and paste:
-   ```
-   VITE_WEB3FORMS_KEY=your_access_key_here
-   ```
-4. Add the same variable in your Vercel project settings under Environment Variables, so it works in production too.
+## Configuration
 
-Until this key is set, the form will show a friendly error and point people to your email directly, so nothing breaks.
+### Environment Variables
 
-### 2. Live demo links
+This portfolio uses **Web3Forms** to send contact messages without a backend.
 
-Open `src/data/projects.js` and fill in the `live` field for any project you have deployed, for example:
+Create a `.env` file in the project root:
+
+| Variable | Description |
+|----------|--------------|
+| `VITE_WEB3FORMS_KEY` | Your Web3Forms access key |
+
+Get a free access key at **https://web3forms.com**.
+
+When deploying to Vercel, add the same environment variable in the project settings.
+
+### Project Links
+
+Update project demo URLs inside:
+
+```
+src/data/projects.js
+```
+
+Example:
 
 ```js
-live: 'https://eliteverse.vercel.app',
+live: "https://eliteverse.vercel.app"
 ```
 
-Leave it as an empty string to hide the Live Demo button for that project.
+Leave the value empty to hide the Live Demo button for that project.
 
-### 3. Project media, screenshots or demo videos
+### Project Videos
 
-Each project card can show either a screenshot or a short demo video. Right now `EliteVerse` plays a real demo video, and the other three projects are wired to look for a video file that doesn't exist yet, so they fall back to a generated placeholder automatically. Nothing breaks either way.
-
-To add a demo video, drop an `.mp4` file into `public/projects/` using this exact name:
-
-| Project | Expected file |
-|---|---|
-| EliteVerse | `public/projects/eliteverse.mp4` (already added) |
-| ZestyBites | `public/projects/zestybites.mp4` |
-| Student Management System | `public/projects/student-management-system.mp4` |
-| Tic-Tac-Toe with AI Opponent | `public/projects/tic-tac-toe-ai.mp4` |
-
-As soon as a file with that exact name exists, its card automatically switches from the placeholder to a real video player, no code changes needed. If you rename a project's video, update the matching `video` field in `src/data/projects.js`.
-
-For best results, keep each clip:
-- `.mp4` with H.264 video and AAC audio, the format every browser plays natively
-- Under about 20 to 30 seconds, and under 10 MB where possible, so the page stays fast
-- Filmed or exported close to a 16:10 ratio (about 1000×625px); anything else still works, it's just center-cropped slightly to fill the frame
-
-To use a static screenshot instead of video for any project, add an image to `public/projects/`, open `src/components/ProjectShowcase.jsx`, and swap the placeholder block inside `ProjectPreview` for an `<img src={project.image} alt={project.title} className="h-full w-full object-cover" />`, then add an `image` field to that project in `src/data/projects.js`.
-
-### 4. Hero photo
-
-The right side of the Hero section is wired to look for a photo at `public/hero/asma-riaz.jpg`. Until that file exists, it shows a clean placeholder automatically, nothing breaks.
-
-Drop your photo in with that exact name and it appears immediately, no code changes needed. If you'd rather use a different name or a `.png` / `.webp` file, just update `heroImage` in `src/data/site.js` to match.
-
-For best results:
-- A portrait crop, close to 4:5 (for example 1000×1250px)
-- `.jpg` or `.webp`, ideally under 500 KB so the page stays fast
-- Good, even lighting; the frame sits on a dark background so avoid a very dark or busy backdrop
-
-## Project structure
+Place project demo videos in:
 
 ```
-src/
-  components/     All UI components, one file per section
-  data/           Content lives here, not in the components
-    site.js       Name, email, links, intro copy
-    skills.js     Skills grouped by category, each with an icon and a proficiency level
-    services.js   The six services shown in the Services section
-    projects.js   Project details, features, challenges, links
-    experience.js Experience, education, certifications
-  hooks/          useTypewriter, useActiveSection, usePrefersReducedMotion
-  index.css       Tailwind import + design tokens (@theme) + base styles
-public/
-  resume/         Your downloadable resume PDF
-  favicon.svg, og-image.png, robots.txt
+public/projects/
 ```
 
-To update any text on the site, edit the relevant file in `src/data/`, not the components.
+| Project | Filename |
+|---------|----------|
+| EliteVerse | eliteverse.mp4 |
+| Zesty Bites | zestybites.mp4 |
+| Student Management System | student-management-system.mp4 |
+| Tic Tac Toe with AI | tic-tac-toe-ai.mp4 |
 
-## Updating your resume
+Recommended:
 
-Replace `public/resume/Asma-Riaz-Resume.pdf` with an updated export whenever your resume changes. The filename can stay the same, or update the path in `src/data/site.js` (`resumeUrl`).
+* MP4 (H.264)
+* Under 10 MB
+* 20 to 30 seconds
 
-## Deploying to Vercel
+### Hero Image
 
-1. Push this project to a GitHub repository.
-2. Go to `vercel.com`, import the repository, framework preset "Vite" is auto detected.
-3. Add the `VITE_WEB3FORMS_KEY` environment variable in the Vercel project settings.
-4. Deploy. No configuration changes are needed.
+Place your profile image at:
 
-## Accessibility and performance notes
+```
+public/hero/asma-riaz.jpg
+```
 
-- Respects `prefers-reduced-motion`: animations and the custom cursor are disabled automatically.
-- Custom cursor only activates on fine pointer (mouse) devices, never on touch.
-- All interactive elements are keyboard reachable with visible focus rings.
-- A skip to content link is available for keyboard and screen reader users.
-- Fonts are loaded with `preconnect` and `display=swap` to avoid blocking render.
+Recommended:
+
+* JPG or WebP
+* 4:5 aspect ratio
+* Under 500 KB
+
+---
+
+## Project Structure
+
+```text
+src
+├── components
+├── data
+│   ├── experience.js
+│   ├── projects.js
+│   ├── services.js
+│   ├── site.js
+│   └── skills.js
+├── hooks
+├── assets
+├── index.css
+└── main.jsx
+
+public
+├── hero
+├── projects
+├── resume
+├── favicon.svg
+├── og-image.png
+└── robots.txt
+```
+
+---
+
+## Resume
+
+Replace:
+
+```
+public/resume/Asma-Riaz-Resume.pdf
+```
+
+or update the `resumeUrl` value in:
+
+```
+src/data/site.js
+```
+
+---
+
+## Deployment
+
+This project is ready for deployment on Vercel.
+
+1. Push the repository to GitHub.
+2. Import the repository into Vercel.
+3. Add the `VITE_WEB3FORMS_KEY` environment variable.
+4. Deploy the project.
+
+No additional configuration is required. Netlify works as an alternative, using `npm run build` as the build command and `dist` as the publish directory.
+
+---
+
+## Accessibility
+
+* Supports `prefers-reduced-motion`
+* Fully keyboard accessible
+* Visible focus indicators
+* Skip to content link
+* Screen reader friendly
+* Custom cursor disabled on touch devices
+
+---
+
+## Performance
+
+* Optimized production build with Vite
+* Responsive assets
+* Optimized animations
+* Google Fonts loaded with `display=swap`
+* Tailwind CSS optimized for production
+
+---
+
+## Roadmap
+
+* [ ] Add a blog or writing section
+* [ ] Add light mode toggle
+* [ ] Add analytics integration
+* [ ] Add case study pages for flagship projects like EliteVerse
+
+---
+
+## Author
+
+**Asma Riaz**
+Full Stack Web Developer, BS Computer Science student at Lahore College for Women University
+
+* GitHub: https://github.com/asma-riaz
+* LinkedIn: *Add your LinkedIn profile URL*
+* Email: *Add your contact email*
+
+---
+
+## Acknowledgments
+
+* [Web3Forms](https://web3forms.com) for the contact form backend
+* [React Icons](https://react-icons.github.io/react-icons/) for the icon set
+* [Vercel](https://vercel.com) for hosting
+
+---
+
+## License
+
+This project is licensed under the MIT License.
