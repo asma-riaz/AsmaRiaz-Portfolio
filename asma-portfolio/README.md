@@ -58,26 +58,38 @@ A browser game with an unbeatable opponent, powered by the minimax algorithm.
 ## Project Structure
 
 ```text
-src
-├── components
-├── data
-│   ├── experience.js
-│   ├── projects.js
-│   ├── services.js
-│   ├── site.js
-│   └── skills.js
-├── hooks
-├── assets
-├── index.css
-└── main.jsx
-
-public
-├── hero
-├── projects
-├── resume
-└── favicon.sng
+asma-portfolio/
+├── public/
+│   ├── hero/
+│   │   └── asma-riaz.jpg
+│   ├── projects/
+│   │   ├── eliteverse.mp4
+│   │   ├── zestybites.mp4
+│   │   ├── student-management-system.mp4
+│   │   └── tic-tac-toe-ai.mp4
+│   ├── resume/
+│   │   └── Asma-Riaz-Resume.pdf
+│   └── favicon.svg
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── data/
+│   │   ├── experience.js
+│   │   ├── projects.js
+│   │   ├── services.js
+│   │   ├── site.js
+│   │   └── skills.js
+│   ├── hooks/
+│   ├── index.css
+│   └── main.jsx
+├── .env
+├── .gitignore
+├── index.html
+├── package.json
+├── README.md
+├── tailwind.config.js
+└── vite.config.js
 ```
-
 ---
 
 ## Connect With Me
