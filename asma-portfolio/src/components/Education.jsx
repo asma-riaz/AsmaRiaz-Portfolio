@@ -15,7 +15,6 @@ export default function Education() {
 
         <div className="relative mt-14 space-y-8 pl-8 sm:pl-10">
           <div className="timeline-rail absolute bottom-2 left-[7px] top-2 w-px sm:left-[9px]" />
-
           <SectionReveal className="relative">
             <span className="absolute -left-8 top-1.5 h-3.5 w-3.5 rounded-full border-2 border-accent bg-ink sm:-left-10" />
             <div className="card-lift glass rounded-2xl p-7 sm:p-8">

@@ -9,7 +9,7 @@ export default function Footer() {
     <footer className="section-px border-t border-border py-10">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-5 sm:flex-row sm:justify-between">
         <p className="font-mono text-sm text-mist-dim">
-          <span className="font-semibold text-accent">asma</span>.dev
+          <span className="font-semibold text-accent">Asma Riaz</span>
         </p>
 
 

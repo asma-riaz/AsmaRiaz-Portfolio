@@ -62,7 +62,7 @@ export const skillGroups = [
     id: 'tools',
     label: 'Tools',
     skills: [
-      { name: 'VS Code', icon: VscVscode, level: 92 },
+      { name: 'VS Code', icon: VscVscode, level: 99 },
       { name: 'XAMPP', icon: SiXampp, level: 90 },
       { name: 'Laragon', icon: SiLaragon, level: 82 },
     ],
@@ -72,7 +72,7 @@ export const skillGroups = [
     label: 'Version Control',
     skills: [
       { name: 'Git', icon: SiGit, level: 85 },
-      { name: 'GitHub', icon: SiGithub, level: 88 },
+      { name: 'GitHub', icon: SiGithub, level: 90 },
     ],
   },
   {
@@ -80,8 +80,8 @@ export const skillGroups = [
     label: 'Deployment',
     wide: true,
     skills: [
-      { name: 'Vercel', icon: SiVercel, level: 82 },
-      { name: 'Netlify', icon: SiNetlify, level: 85 },
+      { name: 'Vercel', icon: SiVercel, level: 89 },
+      { name: 'Netlify', icon: SiNetlify, level: 95 },
       { name: 'Render', icon: SiRender, level: 70 },
     ],
   },
