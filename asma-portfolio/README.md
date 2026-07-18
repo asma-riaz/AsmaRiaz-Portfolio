@@ -1,16 +1,7 @@
-# Asma Riaz | Full-Stack Web Developer Portfolio
-
-![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4-06B6D4?logo=tailwindcss&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer%20Motion-Animations-0055FF?logo=framer&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green)
-
 <div align="center">
-  <img src="public/og-image.png" alt="Asma Riaz Portfolio Banner" width="700" />
+  <img src="public/.png" alt="Asma Riaz Portfolio Banner" width="700" />
 
-  # Asma Riaz
-  ### Full Stack Web Developer | BS Computer Science, Lahore College for Women University
+  # Asma Riaz | Full Stack Web Developer 
 
   [Live Site](https://your-portfolio.vercel.app) &nbsp;•&nbsp; [Resume](public/resume/Asma-Riaz-Resume.pdf) &nbsp;•&nbsp; [Email](asmariaz2903@gmail.com)
 
@@ -21,9 +12,16 @@
 </div>
 
 ---
+## Live Demo
 
+**Website:** https://your-portfolio.vercel.app
+
+---
 ## About
 
+This is the personal developer portfolio of **Asma Riaz**. It brings together my work in React, PHP, and MySQL in a single, polished space where recruiters, collaborators, and potential employers can explore my projects, view live demos, access source code, and download my resume.
+
+The portfolio highlights my technical skills, featured projects, and development journey, reflecting my commitment to building responsive, maintainable, and user-focused web applications.
 
 
 ## Featured Projects
@@ -35,12 +33,12 @@ Full-stack ecommerce platform with JWT authentication, role-based dashboards, an
 Restaurant management system with an admin dashboard, role-based auth, and dynamic registration, built with PHP and MySQL.
 
 **Student Management System**
-Department tracking tool with CGPA color coding and client-side filtering.
+A department based student records tool with collapsible sections for each department and CGPA color coding for quick performance scanning.
 
 **Tic Tac Toe with AI**
 A browser game with an unbeatable opponent, powered by the minimax algorithm.
 
-Demo videos and live links for each are available on the site itself.
+---
 
 ## Key Features
 
@@ -50,6 +48,8 @@ Demo videos and live links for each are available on the site itself.
 * Contact form that sends straight to email, no backend required
 * Smooth animations that respect reduced motion preferences
 * Optimized for performance and search visibility
+
+---
 
 ## Tech Stack
 
@@ -61,6 +61,30 @@ Demo videos and live links for each are available on the site itself.
 | Icons | React Icons |
 | Contact Form | Web3Forms |
 
+## Project Structure
+
+```text
+src
+├── components
+├── data
+│   ├── experience.js
+│   ├── projects.js
+│   ├── services.js
+│   ├── site.js
+│   └── skills.js
+├── hooks
+├── assets
+├── index.css
+└── main.jsx
+
+public
+├── hero
+├── projects
+├── resume
+└── favicon.sng
+```
+
+---
 
 ## Connect With Me
 
@@ -71,3 +95,8 @@ Demo videos and live links for each are available on the site itself.
 ## License
 
 This project is licensed under the MIT License.
+
+---
+
+
+
