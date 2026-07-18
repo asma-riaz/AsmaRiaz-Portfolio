@@ -1,4 +1,8 @@
 <div align="center">
+<<<<<<< HEAD
+=======
+  <img src="public/.png" alt="Asma Riaz Portfolio Banner" width="700" />
+>>>>>>> 81543bb4882b72efd435be602d3816806589b5ee
 
   # Asma Riaz | Full Stack Web Developer 
 
@@ -11,15 +15,28 @@
 </div>
 
 ---
+<<<<<<< HEAD
 ## About
 
 This is the personal developer portfolio of **Asma Riaz**. It brings together my work in React, PHP, and MySQL in a single, polished space where recruiters, collaborators, and potential employers can explore my projects, view live demos, access source code, and download my resume.
 
+=======
+## Live Demo
+
+**Website:** https://your-portfolio.vercel.app
+
+---
+## About
+
+This is the personal developer portfolio of **Asma Riaz**. It brings together my work in React, PHP, and MySQL in a single, polished space where recruiters, collaborators, and potential employers can explore my projects, view live demos, access source code, and download my resume.
+
+>>>>>>> 81543bb4882b72efd435be602d3816806589b5ee
 The portfolio highlights my technical skills, featured projects, and development journey, reflecting my commitment to building responsive, maintainable, and user-focused web applications.
 
 
 ## Featured Projects
 
+<<<<<<< HEAD
 **EliteVerse**:
 Full-stack ecommerce platform with JWT authentication, role-based dashboards, and analytics, built with React, PHP, and MySQL.
 
@@ -30,6 +47,18 @@ Restaurant management system with an admin dashboard, role-based auth, and dynam
 A department based student records tool with collapsible sections for each department and CGPA color coding for quick performance scanning.
 
 **Tic Tac Toe with AI**:
+=======
+**EliteVerse**
+Full-stack ecommerce platform with JWT authentication, role-based dashboards, and analytics, built with React, PHP, and MySQL.
+
+**Zesty Bites**
+Restaurant management system with an admin dashboard, role-based auth, and dynamic registration, built with PHP and MySQL.
+
+**Student Management System**
+A department based student records tool with collapsible sections for each department and CGPA color coding for quick performance scanning.
+
+**Tic Tac Toe with AI**
+>>>>>>> 81543bb4882b72efd435be602d3816806589b5ee
 A browser game with an unbeatable opponent, powered by the minimax algorithm.
 
 ---
@@ -58,6 +87,7 @@ A browser game with an unbeatable opponent, powered by the minimax algorithm.
 ## Project Structure
 
 ```text
+<<<<<<< HEAD
 asma-portfolio/
 ├── public/
 │   ├── hero/
@@ -89,9 +119,30 @@ asma-portfolio/
 ├── README.md
 ├── tailwind.config.js
 └── vite.config.js
+=======
+src
+├── components
+├── data
+│   ├── experience.js
+│   ├── projects.js
+│   ├── services.js
+│   ├── site.js
+│   └── skills.js
+├── hooks
+├── assets
+├── index.css
+└── main.jsx
+
+public
+├── hero
+├── projects
+├── resume
+└── favicon.sng
+>>>>>>> 81543bb4882b72efd435be602d3816806589b5ee
 ```
 ---
 
+<<<<<<< HEAD
 ## Connect With Me
 
 * GitHub: [Github](https://github.com/asma-riaz)
@@ -106,3 +157,21 @@ This project is licensed under the MIT License.
 
 
 
+=======
+---
+
+## Connect With Me
+
+* GitHub: https://github.com/asma-riaz
+* Email: *asmariaz2903@gmail.com*
+* Resume: [Download](public/resume/Asma-Riaz-Resume.pdf)
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+
+
+>>>>>>> 81543bb4882b72efd435be602d3816806589b5ee
