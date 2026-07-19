@@ -1,26 +1,34 @@
-<div align="center">
-<<<<<<< HEAD
-=======
-  <img src="public/.png" alt="Asma Riaz Portfolio Banner" width="700" />
->>>>>>> 81543bb4882b72efd435be602d3816806589b5ee
+`<div align="center">
 
-  # Asma Riaz | Full Stack Web Developer 
+  <img src="public/banner.png" alt="Asma Riaz Portfolio Banner" width="700" />
 
-  [Live Site](https://your-portfolio.vercel.app) &nbsp;•&nbsp; [Resume](public/resume/Asma-Riaz-Resume.pdf) &nbsp;•&nbsp; [Email](asmariaz2903@gmail.com)
+  # Asma Riaz | Full Stack Web Developer
+
+  [Live Site](https://your-portfolio.vercel.app) • [Resume](public/resume/Asma-Riaz-Resume.pdf) • [Email](mailto:asmariaz2903@gmail.com)
 
   ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
   ![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
   ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4-06B6D4?logo=tailwindcss&logoColor=white)
   ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-Animations-0055FF?logo=framer&logoColor=white)
+
 </div>
 
 ---
-<<<<<<< HEAD
+
+## Live Demo
+
+**Website:** https://your-portfolio.vercel.app
+
+---
+
 ## About
 
 This is the personal developer portfolio of **Asma Riaz**. It brings together my work in React, PHP, and MySQL in a single, polished space where recruiters, collaborators, and potential employers can explore my projects, view live demos, access source code, and download my resume.
 
+The portfolio highlights my technical skills, featured projects, and development journey, reflecting my commitment to building responsive, maintainable, and user-focused web applications.
+
 =======
+
 ## Live Demo
 
 **Website:** https://your-portfolio.vercel.app
@@ -36,30 +44,17 @@ The portfolio highlights my technical skills, featured projects, and development
 
 ## Featured Projects
 
-<<<<<<< HEAD
-**EliteVerse**:
-Full-stack ecommerce platform with JWT authentication, role-based dashboards, and analytics, built with React, PHP, and MySQL.
+### EliteVerse
+Full-stack ecommerce platform with JWT authentication, role-based dashboards, analytics, and a modern React frontend powered by PHP and MySQL.
 
-**Zesty Bites**:
-Restaurant management system with an admin dashboard, role-based auth, and dynamic registration, built with PHP and MySQL.
+### Zesty Bites
+Restaurant management system featuring role-based authentication, an admin dashboard, and dynamic registration built with PHP and MySQL.
 
-**Student Management System**:
-A department based student records tool with collapsible sections for each department and CGPA color coding for quick performance scanning.
+### Student Management System
+Department-based student records application with collapsible sections, CRUD operations, and CGPA color coding for quick performance tracking.
 
-**Tic Tac Toe with AI**:
-=======
-**EliteVerse**
-Full-stack ecommerce platform with JWT authentication, role-based dashboards, and analytics, built with React, PHP, and MySQL.
-
-**Zesty Bites**
-Restaurant management system with an admin dashboard, role-based auth, and dynamic registration, built with PHP and MySQL.
-
-**Student Management System**
-A department based student records tool with collapsible sections for each department and CGPA color coding for quick performance scanning.
-
-**Tic Tac Toe with AI**
->>>>>>> 81543bb4882b72efd435be602d3816806589b5ee
-A browser game with an unbeatable opponent, powered by the minimax algorithm.
+### Tic Tac Toe with AI
+A browser-based Tic Tac Toe game featuring an unbeatable AI opponent powered by the Minimax algorithm.
 
 ---
 
@@ -138,15 +133,14 @@ public
 ├── projects
 ├── resume
 └── favicon.sng
->>>>>>> 81543bb4882b72efd435be602d3816806589b5ee
 ```
+
 ---
 
-<<<<<<< HEAD
 ## Connect With Me
 
 * GitHub: [Github](https://github.com/asma-riaz)
-* Email: [Email](asmariaz2903@gmail.com)
+* Email:  [Email](mailto:asmariaz2903@gmail.com)
 * Resume: [Download](public/resume/Asma-Riaz-Resume.pdf)
 
 ## License
@@ -154,24 +148,3 @@ public
 This project is licensed under the MIT License.
 
 ---
-
-
-
-=======
----
-
-## Connect With Me
-
-* GitHub: https://github.com/asma-riaz
-* Email: *asmariaz2903@gmail.com*
-* Resume: [Download](public/resume/Asma-Riaz-Resume.pdf)
-
-## License
-
-This project is licensed under the MIT License.
-
----
-
-
-
->>>>>>> 81543bb4882b72efd435be602d3816806589b5ee
