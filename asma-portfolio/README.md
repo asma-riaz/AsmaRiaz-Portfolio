@@ -1,7 +1,5 @@
 `<div align="center">
 
-  <img src="public/banner.png" alt="Asma Riaz Portfolio Banner" width="700" />
-
   # Asma Riaz | Full Stack Web Developer
 
   [Live Site](https://your-portfolio.vercel.app) • [Resume](public/resume/Asma-Riaz-Resume.pdf) • [Email](mailto:asmariaz2903@gmail.com)
