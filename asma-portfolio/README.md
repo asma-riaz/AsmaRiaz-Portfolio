@@ -2,7 +2,7 @@
 
   # Asma Riaz | Full Stack Web Developer
 
-  [Live Site](https://your-portfolio.vercel.app) • [Resume](public/resume/Asma-Riaz-Resume.pdf) • [Email](mailto:asmariaz2903@gmail.com)
+  [Live Site](https://asma-riaz-portfolio-ydj6.vercel.app/) • [Resume](public/resume/Asma-Riaz-Resume.pdf) • [Email](mailto:asmariaz2903@gmail.com)
 
   ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
   ![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-**Website:** https://your-portfolio.vercel.app
+**Website:** https://asma-riaz-portfolio-ydj6.vercel.app/
 
 ---
 
@@ -109,12 +109,6 @@ src
 ├── assets
 ├── index.css
 └── main.jsx
-
-public
-├── hero
-├── projects
-├── resume
-└── favicon.sng
 ```
 
 ---
