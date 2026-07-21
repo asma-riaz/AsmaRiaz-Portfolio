@@ -25,32 +25,18 @@ This is the personal developer portfolio of **Asma Riaz**. It brings together my
 
 The portfolio highlights my technical skills, featured projects, and development journey, reflecting my commitment to building responsive, maintainable, and user-focused web applications.
 
-
-## Live Demo
-
-**Website:** https://your-portfolio.vercel.app
-
----
-## About
-
-This is the personal developer portfolio of **Asma Riaz**. It brings together my work in React, PHP, and MySQL in a single, polished space where recruiters, collaborators, and potential employers can explore my projects, view live demos, access source code, and download my resume.
-
->>>>>>> 81543bb4882b72efd435be602d3816806589b5ee
-The portfolio highlights my technical skills, featured projects, and development journey, reflecting my commitment to building responsive, maintainable, and user-focused web applications.
-
-
 ## Featured Projects
 
-### EliteVerse
-Full-stack ecommerce platform with JWT authentication, role-based dashboards, analytics, and a modern React frontend powered by PHP and MySQL.
+### EliteVerse:
+Full-stack e-commerce platform with JWT authentication, role-based dashboards, analytics, and a modern React frontend powered by PHP and MySQL.
 
-### Zesty Bites
+### Zesty Bites:
 Restaurant management system featuring role-based authentication, an admin dashboard, and dynamic registration built with PHP and MySQL.
 
-### Student Management System
+### Student Management System:
 Department-based student records application with collapsible sections, CRUD operations, and CGPA color coding for quick performance tracking.
 
-### Tic Tac Toe with AI
+### Tic Tac Toe with AI:
 A browser-based Tic Tac Toe game featuring an unbeatable AI opponent powered by the Minimax algorithm.
 
 ---
@@ -79,7 +65,6 @@ A browser-based Tic Tac Toe game featuring an unbeatable AI opponent powered by 
 ## Project Structure
 
 ```text
-<<<<<<< HEAD
 asma-portfolio/
 ├── public/
 │   ├── hero/
