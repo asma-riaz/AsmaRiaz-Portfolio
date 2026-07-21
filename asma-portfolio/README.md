@@ -25,7 +25,6 @@ This is the personal developer portfolio of **Asma Riaz**. It brings together my
 
 The portfolio highlights my technical skills, featured projects, and development journey, reflecting my commitment to building responsive, maintainable, and user-focused web applications.
 
-=======
 
 ## Live Demo
 
